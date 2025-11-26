@@ -1,0 +1,16 @@
+name: First Run
+
+on:
+  push:
+    branchies: ["main"]
+
+jobs:
+  test-run:
+    runs-on: ubuntu-latest
+    staps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Hello
+        run: echo "GitHub Actions is working!"
+
