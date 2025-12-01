@@ -4,6 +4,6 @@ public class App {
     }
 
     public static String hello() {
-        return "Hello Maven!";
+        return "Hello Maven";
     }
 }
