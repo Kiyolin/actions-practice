@@ -5,7 +5,7 @@ public class AppTest {
 
     @Test
     public void testHello() {
-        assertEquals("Hello Maven", App.hello());
+        assertEquals("Hello Maven!", App.hello());
     }
 
 }
