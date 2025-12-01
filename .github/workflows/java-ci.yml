@@ -3,7 +3,7 @@ name: Java CI
 on:
   push:
     branchies: ["develop", "feature/*"]
-  pull_requestt:
+  pull_request:
     branchies: ["develop"]
 
 jobs:
